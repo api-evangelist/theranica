@@ -1,8 +1,18 @@
 aid: theranica
 name: Theranica
-description: Theranica is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Theranica Bio-Electronics is a digital therapeutics company developing
+  prescription-grade wearable neuromodulation devices for prevalent neurological
+  pain conditions. Its flagship product, Nerivio, is an FDA-authorized wireless
+  Remote Electrical Neuromodulation (REM) device worn on the upper arm for the
+  acute and preventive treatment of migraine, with or without aura, in patients
+  ages 12 and up. Nerivio is controlled by a companion iOS and Android smartphone
+  app that lets patients start treatments, adjust stimulation intensity, monitor
+  session duration, and keep a shareable migraine diary. Theranica is a
+  venture-backed medical device company; it does not currently publish a public
+  developer API, SDK, or developer portal. This profile was surfaced as a
+  portfolio company of Lightspeed Venture Partners and enriched by the API
+  Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/theranica/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +20,47 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://theranica.com/wp-content/uploads/2021/03/theranica-logo.png
 tags:
 - Company
+- Digital Therapeutics
+- Medical Devices
+- Neuromodulation
+- Migraine
+- Healthcare
+- Wearables
+- Bioelectronics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/theranica-domain-security.yml
+- type: Website
+  url: https://theranica.com/
+- type: About
+  url: https://theranica.com/about-us/
+- type: News
+  url: https://theranica.com/news/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
